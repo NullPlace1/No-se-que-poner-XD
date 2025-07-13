@@ -73,6 +73,7 @@ a {
     padding: 12px 20px;
     background-color: white;
     font-family: "Arial";
+    transition: transform 0.2s, box-shadow 0.3s;
     font-weight: bold;
     box-shadow: 0 0 15px white;
 }
@@ -93,4 +94,10 @@ h2 {
 body {
   background-color: black;
   transition: background-color 1s ease;
+}
+
+.Otro {
+     display: flex;
+    justify-content: center;
+      align-items: center;
 }

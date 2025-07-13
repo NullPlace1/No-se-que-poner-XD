@@ -44,7 +44,7 @@ a {
     font-weight: bold;
 }
 
-button {
+.SongButton {
   display: block;
   margin: 40px auto;
   padding: 12px 20px;
@@ -56,9 +56,36 @@ button {
   cursor: pointer;
   box-shadow: 0 0 15px white;
   transition: transform 0.2s, box-shadow 0.3s;
+  font-family: "Arial";
+  font-weight: bold;
 }
 
-button:hover {
+.SongButton:hover {
   transform: scale(1.1);
   box-shadow: 0 0 25px rgb(255, 255, 255);
+}
+
+.SpeedButton {
+    color: black;
+    border: none;
+    border-radius: 12px;
+    margin: auto;
+    padding: 12px 20px;
+    background-color: white;
+    font-family: "Arial";
+    font-weight: bold;
+    box-shadow: 0 0 15px white;
+}
+
+.SpeedButton:hover {
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px white;
+}
+
+h2 {
+    color: white;
+    font-family: "Arial";
+    font-weight: bold;
 }
